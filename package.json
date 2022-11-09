@@ -1,0 +1,11 @@
+{
+  "name": "java",
+  "version": "1.0.0",
+  "description": "PIAIC Java Tasks",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syed Muhammad Waqar Ghazi",
+  "license": "ISC"
+}
