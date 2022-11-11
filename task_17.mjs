@@ -49,7 +49,7 @@ console.log();
 
 let removeMembers = members.length-2;
 for (let index = 0; index < removeMembers; index++) {
-    let invitation = `Hi ${members.shift()}, I am sorry, Due to unavailibility of dinner table I will be not able to invite you for dinner this time. Hope you will understand.`;
+    let invitation = `Hi ${members.pop()}, I am sorry, Due to unavailibility of dinner table I will be not able to invite you for dinner this time. Hope you will understand.`;
     console.log(invitation);
 }
 
@@ -64,7 +64,7 @@ console.log();
 
 let removeAllMembers = members.length;
 for (let index = 0; index < removeAllMembers; index++) {
-    let invitation = `Hi ${members.shift()}, I am sorry, Due to unavailibility of dinner table I will be not able to invite you for dinner this time. Hope you will understand.`;
+    let invitation = `Hi ${members.pop()}, I am sorry, Due to unavailibility of dinner table I will be not able to invite you for dinner this time. Hope you will understand.`;
     console.log(invitation);
 }
 
